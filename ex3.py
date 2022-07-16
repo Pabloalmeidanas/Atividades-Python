@@ -1,0 +1,11 @@
+eleitores=int(input("Informe o total de eleitores: "))
+branco=int(input("Informe o total de votos brancos: "))
+nulos=int(input("Informe o total de votos nulos: "))
+validos=int(input("Informe o total de votos válidos: "))
+
+p1=float(branco*100 /eleitores)
+p2=float(nulos*100 /eleitores)
+p3=float(validos*100 /eleitores)
+print("O total de votos brancos foi de {:.2f}%".format(p1))
+print("O total de votos nulos foi de {:.2f}%".format(p2))
+print("O total de votos validos foi de {:.2f}%".format(p3))
